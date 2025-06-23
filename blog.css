@@ -1,0 +1,26 @@
+
+
+  @media (max-width: 640px) {
+     div > div.flex.flex-col.flex-1.max-w-full.md\:max-w-xl {
+       max-width: 100% !important;
+     }
+     div > div.flex-1.max-w-full.md\:max-w-lg.rounded-xl.overflow-hidden.mt-8.md\:mt-0 img {
+       width: 400px !important;
+       height: 250px !important;
+       max-width: 400px !important;
+       max-height: 250px !important;
+     }
+     div > div.flex.flex-col.md\:flex-row.rounded-xl.p-6.md\:p-8.border.border-transparent.md\:border-gray-300.w-full.max-w-\[1118px\].h-auto.md\:h-\[374px\] {
+       height: auto !important;
+     }
+   }
+
+
+
+
+
+
+
+
+
+

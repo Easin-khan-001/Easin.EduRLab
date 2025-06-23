@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&amp;display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="src/output.css">
+  
+  <link rel="stylesheet" href="about.css" />
+<title>EduRLab</title>
+</head>
+
+<body>
+    <!--============== nav ================-->
+
+  
+  <nav class="bg-teal-800 py-2 px-3 lg:px-0 z-[9993] sticky top-0 relative">
+    <div class="max-w-7xl mx-auto ">
+      <div class="flex justify-between items-center">
+        <a href="prectice.html"> <img src="assets/15Artboard 8xxxhdpi.png" width="170px" alt=""></a>
+        <div class="hidden lg:flex space-x-4">
+          <a href="prectice.html"
+            class="text-white px-3 py-2 border-b-2 border-transparent hover:border-green-500 transition">HOME</a>
+          <a href="service.html"
+            class="text-white px-3 py-2 border-b-2 border-transparent hover:border-green-500 transition">SERVICES</a>
+          <a href="blog.html"
+            class="text-white px-3 py-2 border-b-2 border-transparent hover:border-green-500 transition">BLOG</a>
+          <a href="download.html"
+            class="text-white px-3 py-2 border-b-2 border-transparent hover:border-green-500 transition">DOWNLOAD</a>
+          <a href="contact.html"
+            class="text-white px-3 py-2 border-b-2 border-transparent hover:border-green-500 transition">CONTACT</a>
+          <a href="about.html"
+            class="text-white px-3 py-2 border-b-2 border-transparent hover:border-green-500 transition">ABOUT</a>
+        </div>
+
+        <div class="hidden lg:block whitespace-nowrap">
+          <a href="download.html"
+            class="w-full text-center bg-yellow-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">
+            Download App
+          </a>
+        </div>
+
+        <div class="lg:hidden">
+          <button id="menu-toggle" class="text-white">
+            <i class="fa-solid fa-bars menu-icon-i"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile View -->
+    <div id="mobile-menu"
+      class="hidden lg:hidden bg-teal-800 w-1/2 float-end mt-2 me-2 py-4 rounded-md shadow-lg absolute right-0 top-17">
+      <div class="flex flex-col items-center text-white space-y-2 px-4 py-2">
+        <a href="prectice.html" class="w-full text-center px-3 py-2 rounded hover:bg-green-600 hover:text-white transition">HOME</a>
+        <a href="service.html"
+          class="w-full text-center px-3 py-2 rounded hover:bg-green-600 hover:text-white transition">SERVICES</a>
+        <a href="blog.html" class="w-full text-center px-3 py-2 rounded hover:bg-green-600 hover:text-white transition">BLOG</a>
+        <a href="download.html"
+          class="w-full text-center px-3 py-2 rounded hover:bg-green-600 hover:text-white transition">DOWNLOAD</a>
+        <a href="contact.html"
+          class="w-full text-center px-3 py-2 rounded hover:bg-green-600 hover:text-white transition">CONTACT</a>
+        <a href="about.html"
+          class="w-full text-center px-3 py-2 rounded hover:bg-green-600 hover:text-white transition">ABOUT</a>
+        <a href="download.html" class="w-full text-center bg-green-600 px-4 py-2 rounded hover:bg-green-700 transition">Download
+          App</a>
+      </div>
+
+    </div>
+  </nav>
+
+    <!-- ===========Header============= -->
+
+
+    <div class="flex items-center justify-center bg-gray-900  md:pt-2 px-1 md:px-0 min-h-[231px]">
+        <div class="flex flex-col-reverse md:flex-row rounded-xl md:p-0 border border-transparent md:border-gray-300 w-full max-w-[1400px] h-auto md:max-h-[40vh]">
+            <div class=" max-w-full md:max-w-[100%] flex items-center justify-end rounded-xl overflow-hidden mt-1 md:mt-0">
+                <img alt="" class="w-full h-auto rounded-xl object-cover hidden md:block" src="assets/cover-first.png"/>
+                <img alt="" class="w-full h-auto rounded-xl object-cover md:hidden" src="assets/cover-first.png"/>
+            </div>
+        </div>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="bg-gray-900 text-gray-100 px-6 md:px-20 py-16 leading-relaxed">
+  <div class="max-w-6xl mx-auto">
+
+    <!-- Header -->
+    <div class="text-center mb-16">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white">আমাদের সম্পর্কে</h1>
+      <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
+        EduRLab Technologies একটি উদ্ভাবনী শিক্ষা প্রযুক্তি প্রতিষ্ঠান, যা আধুনিক প্রযুক্তির মাধ্যমে বাংলাদেশের শিক্ষা খাতকে আরও গতিশীল, ডিজিটাল এবং কার্যকর করতে কাজ করে যাচ্ছে।
+      </p>
+    </div>
+
+    <!-- Vision + Image -->
+    <div class="grid md:grid-cols-2 gap-12 mb-24 items-center">
+      <div>
+        <h2 class="text-2xl font-semibold mb-4 text-white">আমাদের লক্ষ্য ও মিশন</h2>
+        <p class="text-gray-300 mb-4">
+          আমাদের লক্ষ্য হলো — দেশের প্রত্যন্ত অঞ্চল পর্যন্ত সকল শিক্ষা প্রতিষ্ঠানকে এমন একটি স্মার্ট সিস্টেমে যুক্ত করা, যেখানে প্রশাসনিক ও একাডেমিক সকল কাজ এক প্ল্যাটফর্মেই সম্পন্ন হবে।
+        </p>
+        <p class="text-gray-300 mb-4">
+          EduRLab-এর মিশন হলো, “প্রযুক্তির সহায়তায় শিক্ষা প্রতিষ্ঠানগুলোর সময়, শ্রম ও খরচ বাঁচিয়ে তাদের মূল লক্ষ্যে — মানসম্মত শিক্ষাদানে — সহায়তা করা।”
+        </p>
+      </div>
+      <img src="assets/about.jpg"
+     alt="আমাদের লক্ষ্য"
+     class="rounded-2xl shadow-lg w-full">
+
+    </div>
+
+    <!-- Company Info -->
+    <div class="bg-gray-800 rounded-2xl p-8 md:p-12 mb-24">
+      <h2 class="text-2xl font-semibold mb-6 text-white">কোম্পানির বিস্তারিত</h2>
+      <div class="grid md:grid-cols-2 gap-8 text-gray-300">
+        <ul class="space-y-3">
+          <li><strong class="text-white">কোম্পানির নাম:</strong> " EduRLab "</li>
+          <li><strong class="text-white">স্থাপিত:</strong> জানুয়ারি 2025</li>
+          <li><strong class="text-white">রেজিস্ট্রেশন নম্বর:</strong> #EDU-BD-2345</li>
+        </ul>
+        <ul class="space-y-3">
+          <li><strong class="text-white">হেড অফিস:</strong> আলাদিপুর মার্কেট 2nd floor, আলাদিপুর, রাজবাড়ি ৭৭০০</li>
+          <li><strong class="text-white">ইমেইল:</strong> contact.easinkhan@gmail.com</li>
+          <li><strong class="text-white">হেল্পলাইন:</strong>   01805123649, 01866370585</li>
+        </ul>
+      </div>
+      <p class="mt-6 text-gray-400">
+        আমরা দেশের প্রতিটি জেলাতে EduRLab পৌঁছে দিতে চাই, যাতে প্রযুক্তি সকলের জন্য সহজলভ্য হয়।
+      </p>
+    </div>
+
+    <!-- History -->
+    <div class="mb-24">
+      <h2 class="text-2xl font-semibold mb-4 text-white">আমাদের ইতিহাস</h2>
+      <p class="text-gray-300 mb-4">
+        ২০২৫ সালে একটি ছোট পাইলট প্রজেক্ট থেকে EduRLab যাত্রা শুরু করে। শুরুতে আমরা  অল্প কিছু ফিচার নিয়েই কাজ করছিলাম, কিন্তু দ্রুত দেখা যায় আরও অনেক চাহিদা রয়েছে — যেমন পেমেন্ট, নোটিশ, শিক্ষক ম্যানেজমেন্ট, এবং অভিভাবকদের জন্য মোবাইল অ্যাক্সেস।
+      </p>
+      <p class="text-gray-300">
+        বর্তমানে EduRLab দেশের ২০+ শিক্ষা প্রতিষ্ঠানে সফলভাবে ব্যবহৃত হচ্ছে, এবং আমাদের সফটওয়্যার প্রতিদিন প্রায় ৮০০০+ ছাত্রছাত্রী ও অভিভাবকের জীবন সহজ করে তুলছে।
+      </p>
+    </div>
+
+    <!-- Future Plan -->
+    <div class="mb-24">
+      <h2 class="text-2xl font-semibold mb-4 text-white">ভবিষ্যতের পরিকল্পনা</h2>
+      <p class="text-gray-300 mb-4">
+        EduRLab ভবিষ্যতে আরও শক্তিশালী প্রযুক্তি যেমন:
+      </p>
+      <ul class="list-disc list-inside text-gray-300 space-y-2 mb-4">
+        <li>AI বেসড অটো রিপোর্টিং সিস্টেম</li>
+        <li>রিয়েলটাইম অভিভাবক নোটিফিকেশন</li>
+        <li>ভয়েস অ্যাসিস্ট্যান্ট ও স্মার্ট বিশ্লেষণ</li>
+        <li>Bangla + English ভার্সন একসাথে</li>
+      </ul>
+      <p class="text-gray-300">
+        আমরা বিশ্বাস করি, দেশের প্রতিটি স্কুল ডিজিটাল হোক — এটি আর বিলাসিতা নয়, বরং এখন সময়ের দাবি।
+      </p>
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center mt-20">
+      <h3 class="text-xl font-semibold mb-4 text-white">আপনার প্রতিষ্ঠান কি এখনো ডিজিটাল হয়নি?</h3>
+      <p class="text-gray-400 mb-6">
+        EduRLab-এর মাধ্যমে এক ক্লিকে শিক্ষা প্রতিষ্ঠানকে আধুনিক করুন। আমরা আছি পাশে — শুরু থেকে সফলতা পর্যন্ত।
+      </p>
+      <a href="/contact" class="inline-block bg-green-500 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-green-600 transition">
+        এখনই যোগাযোগ করুন
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+  
+
+
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-7xl mx-auto px-6 py-16">
+      <div class="grid md:grid-cols-5 sm:grid-cols-2 gap-10 grid-cols-2">
+
+        <!-- Logo & Description -->
+        <div class="md:col-span-2">
+          <img src="assets/white_logo.png" alt="" class="mb-5 max-w-48">
+          <p class="text-sm leading-relaxed text-gray-400 mb-6">
+            EduRLab হলো একটি স্মার্ট শিক্ষা প্রযুক্তি প্ল্যাটফর্ম, যা স্কুল, কলেজ এবং কোচিং সেন্টার পরিচালনা সহজ করে
+            তোলে।
+          </p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-xl hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-xl hover:text-white transition"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-xl hover:text-white transition"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-xl hover:text-white transition"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Links: Company -->
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4 ">Company</h3>
+          <ul class="space-y-3 text-sm">
+            <li><a href="#" class="hover:text-white transition">About Us</a></li>
+            <li><a href="#" class="hover:text-white transition">Blog</a></li>
+            <li><a href="#" class="hover:text-white transition">Careers</a></li>
+            <li><a href="#" class="hover:text-white transition">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Links: Support -->
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4">Support</h3>
+          <ul class="space-y-3 text-sm">
+            <li><a href="#" class="hover:text-white transition">Help Center</a></li>
+            <li><a href="#" class="hover:text-white transition">FAQs</a></li>
+            <li><a href="#" class="hover:text-white transition">Terms</a></li>
+            <li><a href="#" class="hover:text-white transition">Privacy</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4">Newsletter</h3>
+          <p class="text-sm text-gray-400 mb-4">নতুন আপডেট পেতে ইমেইল দিন:</p>
+          <form class="flex flex-col space-y-3">
+            <input type="email" placeholder="Enter your email"
+              class="px-4 py-2 rounded-md bg-gray-800 text-gray-100 border border-gray-700 focus:ring-2 focus:ring-green-500 focus:outline-none">
+            <button type="submit"
+              class="bg-yellow-600 hover:bg-yellow-700 text-white py-2 rounded-md font-medium transition">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="mt-12 border-t border-gray-800 pt-6 text-center text-sm text-gray-100">
+        &copy; 2025 EduRLab — All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="about.js"></script>
+</body>
+
+</html>
